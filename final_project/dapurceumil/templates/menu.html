@@ -1,0 +1,76 @@
+{% extends "master.html" %}
+{% block content %}
+{% load static %}
+<!-- Cover Start -->
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Menu</h1>
+                <p class="lead text-body-secondary">
+                    Something short and leading about the collection below—its contents, the creator, etc. Make it short
+                    and sweet, but not too short so folks don’t simply skip over it entirely.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Menu start -->
+    <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://www.astronauts.id/blog/wp-content/uploads/2023/01/Resep-Brownies-Panggang-dan-Tips-Membuatnya.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Brownies</h5>
+                        <p class="card-text">Brownies are a rich, chocolatey dessert bar baked in a square or rectangular pan. They can be fudgy and dense or cake-like and light, depending on the recipe. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'images/Gyoza.jpeg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gyoza</h5>
+                        <p class="card-text">Gyoza are Japanese dumplings filled with meat and vegetables, wrapped in thin dough. They can be steamed, pan-fried, or boiled, and are often served with dipping sauce.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'images/Lasagna.webp' %}" class="card-img-top" style="width: auto; height: 237px; object-fit: cover;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lasagna</h5>
+                        <p class="card-text">Lasagna is an Italian dish made with layers of wide, flat pasta sheets, meat sauce, cheese, and sometimes vegetables, baked in the oven.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'images/Mie aceh.jfif' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mie Aceh</h5>
+                        <p class="card-text">Mie Aceh is a spicy noodle dish from Aceh, Indonesia. It's known for its rich, savory broth, often flavored with shrimp paste, and a mix of noodles, seafood, and meat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'images/Ramen.avif' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ramen</h5>
+                        <p class="card-text">Ramen is a Japanese noodle soup dish featuring wheat noodles, a savory broth, and often topped with various ingredients like sliced pork, seaweed, and green onions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'images/spaghetti.jpg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti</h5>
+                        <p class="card-text">Spaghetti is a long, thin pasta typically served with a sauce, such as marinara or meat sauce.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock  %}
